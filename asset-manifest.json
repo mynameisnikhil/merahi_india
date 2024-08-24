@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/merahi_india/static/css/main.489faa02.css",
+    "main.js": "/merahi_india/static/js/main.a2ccbd85.js",
+    "static/js/453.3462c4e9.chunk.js": "/merahi_india/static/js/453.3462c4e9.chunk.js",
+    "static/media/meraahi_logo.jpeg": "/merahi_india/static/media/meraahi_logo.66f19faddfbfb693f0f3.jpeg",
+    "index.html": "/merahi_india/index.html",
+    "main.489faa02.css.map": "/merahi_india/static/css/main.489faa02.css.map",
+    "main.a2ccbd85.js.map": "/merahi_india/static/js/main.a2ccbd85.js.map",
+    "453.3462c4e9.chunk.js.map": "/merahi_india/static/js/453.3462c4e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.489faa02.css",
+    "static/js/main.a2ccbd85.js"
+  ]
+}
