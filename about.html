@@ -1,341 +1,378 @@
-<!DOCTYPE html>
+<!-- /*
+* Template Name: Tour
+* Template Author: Untree.co
+* Tempalte URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>Tourist - Travel Agency HTML Template</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Untree.co">
+  <link rel="shortcut icon" href="favicon.png">
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap4" />
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet">
 
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/daterangepicker.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+  <title>Tour Free Bootstrap Template for Travel Agency by Untree.co</title>
 </head>
 
 <body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
+
+
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close">
+        <span class="icofont-close js-menu-toggle"></span>
+      </div>
     </div>
-    <!-- Spinner End -->
+    <div class="site-mobile-menu-body"></div>
+  </div>
 
+  <nav class="site-nav">
+    <div class="container">
+      <div class="site-navigation">
+        <a href="index.html" class="logo m-0">Tour <span class="text-primary">.</span></a>
 
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
-        <div class="row gx-0">
-            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
-                <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</small>
-                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</small>
-                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@example.com</small>
-                </div>
-            </div>
-            <div class="col-lg-4 text-center text-lg-end">
-                <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
-                </div>
-            </div>
-        </div>
+        <ul class="js-clone-nav d-none d-lg-inline-block text-left site-menu float-right">
+          <li><a href="index.html">Home</a></li>
+          <li class="has-children">
+            <a href="#">Dropdown</a>
+            <ul class="dropdown">
+              <li><a href="elements.html">Elements</a></li>
+              <li><a href="#">Menu One</a></li>
+              <li class="has-children">
+                <a href="#">Menu Two</a>
+                <ul class="dropdown">
+                  <li><a href="#">Sub Menu One</a></li>
+                  <li><a href="#">Sub Menu Two</a></li>
+                  <li><a href="#">Sub Menu Three</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Menu Three</a></li>
+            </ul>
+          </li>
+          <li><a href="services.html">Services</a></li>
+          <li class="active"><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
+          <span></span>
+        </a>
+
+      </div>
     </div>
-    <!-- Topbar End -->
+  </nav>
 
 
-    <!-- Navbar & Hero Start -->
-    <div class="container-fluid position-relative p-0">
-        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-            <a href="" class="navbar-brand p-0">
-                <h1 class="text-primary m-0"><i class="fa fa-map-marker-alt me-3"></i>Tourist</h1>
-                <!-- <img src="img/logo.png" alt="Logo"> -->
+  <div class="hero hero-inner">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mx-auto text-center">
+          <div class="intro-wrap">
+            <h1 class="mb-0">About Us</h1>
+            <p class="text-white">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  <div class="untree_co-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="owl-single dots-absolute owl-carousel">
+            <img src="images/slider-1.jpg" alt="Free HTML Template by Untree.co" class="img-fluid rounded-20">
+            <img src="images/slider-2.jpg" alt="Free HTML Template by Untree.co" class="img-fluid rounded-20">
+            <img src="images/slider-3.jpg" alt="Free HTML Template by Untree.co" class="img-fluid rounded-20">
+            <img src="images/slider-4.jpg" alt="Free HTML Template by Untree.co" class="img-fluid rounded-20">
+            <img src="images/slider-5.jpg" alt="Free HTML Template by Untree.co" class="img-fluid rounded-20">
+          </div>
+        </div>
+        <div class="col-lg-5 pl-lg-5 ml-auto">
+          <h2 class="section-title mb-4">About Tours</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          <ul class="list-unstyled two-col clearfix">
+            <li>Outdoor recreation activities</li>
+            <li>Airlines</li>
+            <li>Car Rentals</li>
+            <li>Cruise Lines</li>
+            <li>Hotels</li>
+            <li>Railways</li>
+            <li>Travel Insurance</li>
+            <li>Package Tours</li>
+            <li>Insurance</li>
+            <li>Guide Books</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="untree_co-section">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-6 text-center">
+          <h2 class="section-title mb-3 text-center">Team</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 mb-4">
+          <div class="team">
+            <img src="images/person_1.jpg" alt="Image" class="img-fluid mb-4 rounded-20">
+            <div class="px-3">
+              <h3 class="mb-0">James Watson</h3>
+              <p>Co-Founder &amp; CEO</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="team">
+            <img src="images/person_2.jpg" alt="Image" class="img-fluid mb-4 rounded-20">
+            <div class="px-3">
+              <h3 class="mb-0">Carl Anderson</h3>
+              <p>Co-Founder &amp; CEO</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 mb-4">
+          <div class="team">
+            <img src="images/person_4.jpg" alt="Image" class="img-fluid mb-4 rounded-20">
+            <div class="px-3">
+              <h3 class="mb-0">Michelle Allison</h3>
+              <p>Co-Founder &amp; CEO</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="team">
+            <img src="images/person_3.jpg" alt="Image" class="img-fluid mb-4 rounded-20">
+            <div class="px-3">
+              <h3 class="mb-0">Drew Wood</h3>
+              <p>Co-Founder &amp; CEO</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  
+
+  <div class="untree_co-section testimonial-section mt-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7 text-center">
+          <h2 class="section-title text-center mb-5">Testimonials</h2>
+
+          <div class="owl-single owl-carousel no-nav">
+            <div class="testimonial mx-auto">
+              <figure class="img-wrap">
+                <img src="images/person_2.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <h3 class="name">Adam Aderson</h3>
+              <blockquote>
+                <p>&ldquo;There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+              </blockquote>
+            </div>
+
+            <div class="testimonial mx-auto">
+              <figure class="img-wrap">
+                <img src="images/person_3.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <h3 class="name">Lukas Devlin</h3>
+              <blockquote>
+                <p>&ldquo;There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+              </blockquote>
+            </div>
+
+            <div class="testimonial mx-auto">
+              <figure class="img-wrap">
+                <img src="images/person_4.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <h3 class="name">Kayla Bryant</h3>
+              <blockquote>
+                <p>&ldquo;There live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+              </blockquote>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="untree_co-section">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+
+        <div class="col-lg-6">
+          <figure class="img-play-video">
+            <a id="play-video" class="video-play-button" href="https://www.youtube.com/watch?v=mwtbEGNABWU" data-fancybox>
+              <span></span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link active">About</a>
-                    <a href="service.html" class="nav-item nav-link">Services</a>
-                    <a href="package.html" class="nav-item nav-link">Packages</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="destination.html" class="dropdown-item">Destination</a>
-                            <a href="booking.html" class="dropdown-item">Booking</a>
-                            <a href="team.html" class="dropdown-item">Travel Guides</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            <a href="404.html" class="dropdown-item">404 Page</a>
-                        </div>
-                    </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
-                </div>
-                <a href="" class="btn btn-primary rounded-pill py-2 px-4">Register</a>
-            </div>
-        </nav>
-
-        <div class="container-fluid bg-primary py-5 mb-5 hero-header">
-            <div class="container py-5">
-                <div class="row justify-content-center py-5">
-                    <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
-                        <h1 class="display-3 text-white animated slideInDown">About Us</h1>
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                                <li class="breadcrumb-item text-white active" aria-current="page">About</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-            </div>
+            <img src="images/hero-slider-2.jpg" alt="Image" class="img-fluid rounded-20">
+          </figure>
         </div>
+
+        <div class="col-lg-5">
+          <h2 class="section-title text-left mb-4">Take a look at Tour Video</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+
+          <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+
+          <ul class="list-unstyled two-col clearfix">
+            <li>Outdoor recreation activities</li>
+            <li>Airlines</li>
+            <li>Car Rentals</li>
+            <li>Cruise Lines</li>
+            <li>Hotels</li>
+            <li>Railways</li>
+            <li>Travel Insurance</li>
+            <li>Package Tours</li>
+            <li>Insurance</li>
+            <li>Guide Books</li>
+          </ul>
+
+          <p><a href="#" class="btn btn-primary">Get Started</a></p>
+
+          
+        </div>
+      </div>
     </div>
-    <!-- Navbar & Hero End -->
-
-
-    <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt="" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
-                    <h1 class="mb-4">Welcome to <span class="text-primary">Tourist</span></h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <div class="row gy-2 gx-4 mb-4">
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>First Class Flights</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Handpicked Hotels</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>5 Star Accommodations</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Latest Model Vehicles</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>150 Premium City Tours</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>24/7 Service</p>
-                        </div>
-                    </div>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
-                </div>
-            </div>
+  </div>
+  
+  <div class="py-5 cta-section">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <h2 class="mb-2 text-white">Lets you Explore the Best. Contact Us Now</h2>
+          <p class="mb-4 lead text-white text-white-opacity">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, fugit?</p>
+          <p class="mb-0"><a href="booking.html" class="btn btn-outline-white text-white btn-md font-weight-bold">Get in touch</a></p>
         </div>
+      </div>
     </div>
-    <!-- About End -->
+  </div>
 
-
-    <!-- Team Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Travel Guide</h6>
-                <h1 class="mb-5">Meet Our Guide</h1>
+  <div class="site-footer">
+    <div class="inner first">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="widget">
+              <h3 class="heading">About Tour</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
-                </div>
+            <div class="widget">
+              <ul class="list-unstyled social">
+                <li><a href="#"><span class="icon-twitter"></span></a></li>
+                <li><a href="#"><span class="icon-instagram"></span></a></li>
+                <li><a href="#"><span class="icon-facebook"></span></a></li>
+                <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                <li><a href="#"><span class="icon-dribbble"></span></a></li>
+                <li><a href="#"><span class="icon-pinterest"></span></a></li>
+                <li><a href="#"><span class="icon-apple"></span></a></li>
+                <li><a href="#"><span class="icon-google"></span></a></li>
+              </ul>
             </div>
+          </div>
+          <div class="col-md-6 col-lg-2 pl-lg-5">
+            <div class="widget">
+              <h3 class="heading">Pages</h3>
+              <ul class="links list-unstyled">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="widget">
+              <h3 class="heading">Resources</h3>
+              <ul class="links list-unstyled">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="widget">
+              <h3 class="heading">Contact</h3>
+              <ul class="list-unstyled quick-info links">
+                <li class="email"><a href="#">mail@example.com</a></li>
+                <li class="phone"><a href="#">+1 222 212 3819</a></li>
+                <li class="address"><a href="#">43 Raymouth Rd. Baltemoer, London 3910</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    <!-- Team End -->
-        
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Company</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Privacy Policy</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">FAQs & Help</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Gallery</h4>
-                    <div class="row g-2 pt-2">
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/package-2.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/package-3.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/package-2.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/package-3.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
 
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <div class="footer-menu">
-                            <a href="">Home</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+    <div class="inner dark">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-8 mb-3 mb-md-0 mx-auto">
+            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co" class="link-highlight">Untree.co</a> <!-- License information: https://untree.co/license/ --> Distributed By <a href="https://themewagon.com" target="_blank" >ThemeWagon</a>
+            </p>
+          </div>
+          
         </div>
+      </div>
     </div>
-    <!-- Footer End -->
+  </div>
 
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/moment.min.js"></script>
+  <script src="js/daterangepicker.js"></script>
 
+  <script src="js/typed.js"></script>
+  
+  <script src="js/custom.js"></script>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
 </body>
 
 </html>
