@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import trips from "../data/trips.json"; // will hold array of trip objects like above
+import { trips } from "../data/trips";
+import trip1 from "../images/about.jpg"; // will hold array of trip objects like above
 
 const TripDetails = () => {
   const { id } = useParams();
@@ -13,21 +14,56 @@ const TripDetails = () => {
   return (
     <div className="container py-5">
       {/* Trip Overview */}
-      <div className="text-center mb-5">
-        <h1 className="display-4 text-primary">{trip.destination}</h1>
-        <p className="lead">
-          Duration: {trip.duration} | Price: {trip.price}
-        </p>
-        <div className="d-flex flex-wrap justify-content-center">
-          {trip.highlights.map((h, idx) => (
-            <span
-              key={idx}
-              className="badge badge-primary m-2 p-2"
-              style={{ fontSize: "14px" }}
-            >
-              {h}
-            </span>
-          ))}
+      {/* Trip Hero Section */}
+      <div
+        className="trip-hero position-relative text-white text-center mb-5"
+        style={{ minHeight: "400px", overflow: "hidden", borderRadius: "12px" }}
+      >
+        {/* Background Image */}
+        <img
+          src={trip1}
+          alt={trip.destination}
+          className="position-absolute w-100 h-100"
+          style={{
+            objectFit: "cover",
+            zIndex: "-1",
+            filter: "brightness(60%)",
+          }}
+        />
+
+        {/* Overlay Content */}
+        <div className="d-flex flex-column justify-content-center align-items-center h-100 px-3">
+          <h1
+            className="display-3 font-weight-bold mb-3"
+            style={{ textShadow: "2px 2px 8px rgba(0,0,0,0.6)" }}
+          >
+            {trip.destination}
+          </h1>
+          <p className="lead mb-4" style={{ fontSize: "1.25rem" }}>
+            <i className="fa fa-clock mr-2"></i> {trip.duration} &nbsp; | &nbsp;
+            <i className="fa fa-tag mr-2"></i> {trip.price}
+          </p>
+
+          {/* Highlights as Cards */}
+          <div
+            className="d-flex flex-wrap justify-content-center"
+            style={{ maxWidth: "900px" }}
+          >
+            {trip.highlights.map((h, idx) => (
+              <div
+                key={idx}
+                className="bg-white text-dark rounded-pill shadow-sm m-2 px-3 py-2 d-flex align-items-center"
+                style={{
+                  fontSize: "14px",
+                  fontWeight: "500",
+                  transition: "all 0.3s ease",
+                }}
+              >
+                <i className="fa fa-check-circle text-primary mr-2"></i>
+                {h}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
