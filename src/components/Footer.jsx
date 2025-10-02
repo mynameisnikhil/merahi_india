@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -7,16 +8,16 @@ const Footer = () => {
         className="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5"
         style={{ marginTop: "90px" }}
       >
-        <div className="row pt-5">
+        <div className="row pt-5 justify-content-between">
           <div className="col-lg-3 col-md-6 mb-5">
-            <a href="/" className="navbar-brand">
-              <h1 className="text-primary">
-                <span className="text-white">TRAVEL</span>ER
+            <NavLink to="/" className="navbar-brand">
+              <h1 className="m-0 text-primary">
+                <span className="text-white">ME</span>RAAHI
               </h1>
-            </a>
+            </NavLink>
             <p>
-              Sed ipsum clita tempor ipsum ipsum amet sit ipsum lorem amet
-              labore rebum lorem ipsum dolor.
+              We believe travel is not just about places—it's about experiences
+              that last a lifetime.
             </p>
             <h6
               className="text-white text-uppercase mt-4 mb-3"
@@ -25,21 +26,29 @@ const Footer = () => {
               Follow Us
             </h6>
             <div className="d-flex justify-content-start">
-              <a className="btn btn-outline-primary btn-square mr-2" href="#">
+              <a className="btn btn-outline-primary btn-square mr-2" href="">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a className="btn btn-outline-primary btn-square mr-2" href="#">
+              <a
+                className="btn btn-outline-primary btn-square mr-2"
+                href="https://www.facebook.com/karmiyal.backpackres"
+                target="_blank"
+              >
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a className="btn btn-outline-primary btn-square mr-2" href="#">
+              <a className="btn btn-outline-primary btn-square mr-2" href="">
                 <i className="fab fa-linkedin-in"></i>
               </a>
-              <a className="btn btn-outline-primary btn-square" href="#">
+              <a
+                className="btn btn-outline-primary btn-square"
+                href="https://www.instagram.com/meraahi_india/"
+                target="_blank"
+              >
                 <i className="fab fa-instagram"></i>
               </a>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 mb-5">
+          {/* <div className="col-lg-3 col-md-6 mb-5">
             <h5
               className="text-white text-uppercase mb-4"
               style={{ letterSpacing: "5px" }}
@@ -100,7 +109,7 @@ const Footer = () => {
                 <i className="fa fa-angle-right mr-2"></i>Blog
               </a>
             </div>
-          </div>
+          </div> */}
           <div className="col-lg-3 col-md-6 mb-5">
             <h5
               className="text-white text-uppercase mb-4"
@@ -109,14 +118,31 @@ const Footer = () => {
               Contact Us
             </h5>
             <p>
-              <i className="fa fa-map-marker-alt mr-2"></i>123 Street, New York,
-              USA
+              <i className="fa fa-map-marker-alt mr-2"></i>Mr Rao, Sama Road,
+              Vadodara, Gujarat, India - 390008
+            </p>
+            {/* <p>
+              <i className="fa fa-phone-alt mr-2"></i>+91 7990098991
+            </p> */}
+            <p>
+              <a
+                href="https://wa.me/917990098991?text=Hello%2C%20I%20want%20to%20know%20more%20about%20your%20tour%20packages."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-whatsapp mr-2"></i>+91 7990098991
+              </a>
             </p>
             <p>
-              <i className="fa fa-phone-alt mr-2"></i>+012 345 67890
+              <a href="tel:+917990098991" className="text-primary">
+                <i className="fa fa-phone-alt mr-2"></i>+91 7990098991
+              </a>
             </p>
             <p>
-              <i className="fa fa-envelope mr-2"></i>info@example.com
+              <a href="mailto:meraahiindia@gmail.com">
+                {" "}
+                <i className="fa fa-envelope mr-2"></i>meraahiindia@gmail.com
+              </a>
             </p>
             <h6
               className="text-white text-uppercase mt-4 mb-3"
@@ -140,7 +166,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div
+      {/* <div
         className="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5"
         style={{ borderColor: "rgba(256, 256, 256, .1) !important" }}
       >
@@ -156,7 +182,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

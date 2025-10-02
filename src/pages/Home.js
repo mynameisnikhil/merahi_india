@@ -9,17 +9,19 @@ import Registration from "../components/Registration";
 import Team from "../components/Team";
 import Testimonial from "../components/Testimonial";
 import Blog from "../components/Blog";
+import ContactPage from "./ContactPage";
 
 const Home = () => (
   <>
     <Carousel />
     {/* <Booking /> */}
-    <Destination />
     <Packages />
-    <Services />
+    <Destination />
     <About />
+    <Services />
     <Features />
     <Registration />
+    {/* <ContactPage /> */}
     <Team />
     <Testimonial />
     <Blog />

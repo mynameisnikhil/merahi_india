@@ -8,11 +8,22 @@ const Topbar = () => {
           <div className="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
             <div className="d-inline-flex align-items-center">
               <p>
-                <i className="fa fa-envelope mr-2"></i>meraahiindia@gmail.com
+                <a
+                  href="mailto:meraahiindia@gmail.com"
+                  style={{ color: "#007BFF" }} // custom blue
+                >
+                  <i className="fa fa-envelope mr-2"></i> meraahiindia@gmail.com
+                </a>
               </p>
               <p className="text-body px-3">|</p>
               <p>
-                <i className="fa fa-phone-alt mr-2"></i>+91 7990098991
+                <a
+                  href="https://wa.me/917990098991?text=Hello%2C%20I%20want%20to%20know%20more%20about%20your%20tour%20packages."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-whatsapp mr-2"></i>+91 7990098991
+                </a>
               </p>
             </div>
           </div>

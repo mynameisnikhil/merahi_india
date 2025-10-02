@@ -13,10 +13,15 @@ import BlogPage from "./pages/BlogPage";
 import ContactPage from "./pages/ContactPage";
 import Topbar from "./components/Topbar";
 import TripDetails from "./components/TripDetails";
+import DestinationDetail from "./components/DestinationsDetails";
+import ScrollToTop from "./components/ScrollToTop";
+import EnquirePopup from "./components/EnquirePopup";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
+      <EnquirePopup />
       <Topbar />
       <Navbar />
       <Routes>
@@ -26,6 +31,7 @@ function App() {
         <Route path="/packages" element={<PackagesPage />} />
         <Route path="/destination" element={<DestinationPage />} />
         <Route path="/trip/:id" element={<TripDetails />} />
+        <Route path="/destination/:slug" element={<DestinationDetail />} />
         {/* <Route path="/blog" element={<BlogPage />} /> */}
         {/* <Route path="/guides" element={<GuidesPage />} /> */}
         <Route path="/contact" element={<ContactPage />} />
