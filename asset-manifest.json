@@ -1,16 +1,34 @@
 {
   "files": {
-    "main.css": "/merahi_india/static/css/main.489faa02.css",
-    "main.js": "/merahi_india/static/js/main.a2ccbd85.js",
-    "static/js/453.3462c4e9.chunk.js": "/merahi_india/static/js/453.3462c4e9.chunk.js",
-    "static/media/meraahi_logo.jpeg": "/merahi_india/static/media/meraahi_logo.66f19faddfbfb693f0f3.jpeg",
+    "main.css": "/merahi_india/static/css/main.624fcab7.css",
+    "main.js": "/merahi_india/static/js/main.54efdbcf.js",
+    "static/js/453.cc1120e7.chunk.js": "/merahi_india/static/js/453.cc1120e7.chunk.js",
+    "static/media/meraahi_logo.jpeg": "/merahi_india/static/media/meraahi_logo.dac598bf29800772f475.jpeg",
+    "static/media/carousel-1.jpg": "/merahi_india/static/media/carousel-1.6c7b3b2ad958cf25deb0.jpg",
+    "static/media/carousel-2.jpg": "/merahi_india/static/media/carousel-2.bdfe069e342315fd0b17.jpg",
+    "static/media/blog-3.jpg": "/merahi_india/static/media/blog-3.3bd005afa4f0cf6a0a22.jpg",
+    "static/media/blog-2.jpg": "/merahi_india/static/media/blog-2.ce12dd92b41f50af410c.jpg",
+    "static/media/blog-1.jpg": "/merahi_india/static/media/blog-1.9d2af48bf6164453e830.jpg",
+    "static/media/about.jpg": "/merahi_india/static/media/about.905bfd0813f73448f718.jpg",
+    "static/media/about-2.jpg": "/merahi_india/static/media/about-2.2a99643031f6373714f6.jpg",
+    "static/media/destination-5.jpg": "/merahi_india/static/media/destination-5.dc9c06f4ed7e31eee0a9.jpg",
+    "static/media/team-1.jpg": "/merahi_india/static/media/team-1.19575d0f0ae6975877c3.jpg",
+    "static/media/destination-4.jpg": "/merahi_india/static/media/destination-4.aeb22d91098aec94aae2.jpg",
+    "static/media/destination-2.jpg": "/merahi_india/static/media/destination-2.68fa2b29b0dc9d293ddb.jpg",
+    "static/media/about-1.jpg": "/merahi_india/static/media/about-1.098d00a53f169583c466.jpg",
+    "static/media/destination-1.jpg": "/merahi_india/static/media/destination-1.dc764f672b17bdab72cf.jpg",
+    "static/media/destination-6.jpg": "/merahi_india/static/media/destination-6.e26799a772963e3e0188.jpg",
+    "static/media/destination-3.jpg": "/merahi_india/static/media/destination-3.cdff8ee51ab539163ecd.jpg",
+    "static/media/team-2.jpg": "/merahi_india/static/media/team-2.f7de3f7285dae6d54921.jpg",
+    "static/media/team-3.jpg": "/merahi_india/static/media/team-3.3d4090b04d58ee73aaf2.jpg",
+    "static/media/team-4.jpg": "/merahi_india/static/media/team-4.0461dea9bcadcf04a287.jpg",
     "index.html": "/merahi_india/index.html",
-    "main.489faa02.css.map": "/merahi_india/static/css/main.489faa02.css.map",
-    "main.a2ccbd85.js.map": "/merahi_india/static/js/main.a2ccbd85.js.map",
-    "453.3462c4e9.chunk.js.map": "/merahi_india/static/js/453.3462c4e9.chunk.js.map"
+    "main.624fcab7.css.map": "/merahi_india/static/css/main.624fcab7.css.map",
+    "main.54efdbcf.js.map": "/merahi_india/static/js/main.54efdbcf.js.map",
+    "453.cc1120e7.chunk.js.map": "/merahi_india/static/js/453.cc1120e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.489faa02.css",
-    "static/js/main.a2ccbd85.js"
+    "static/css/main.624fcab7.css",
+    "static/js/main.54efdbcf.js"
   ]
 }
