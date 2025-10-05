@@ -14,11 +14,7 @@ const Navbar = () => {
             {/* <h1 className="m-0 text-primary">
               <span className="text-dark">ME</span>RAAHI
             </h1> */}
-            <img
-              src={logo}
-              alt="Meraahi Logo"
-              style={{ height: "70px", width: "auto" }} // adjust size as needed
-            />
+            <img src={logo} alt="Meraahi Logo" className="logo-img" />
           </NavLink>
           <button
             type="button"

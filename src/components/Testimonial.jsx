@@ -38,10 +38,12 @@ const testimonials = [
 const Testimonial = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Auto-slide every 4s
+  // Auto-slide properly
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % testimonials.length);
+      setCurrentIndex((prev) =>
+        prev + 1 < testimonials.length ? prev + 1 : 0
+      );
     }, 4000);
     return () => clearInterval(interval);
   }, []);
@@ -59,35 +61,53 @@ const Testimonial = () => {
           <h1>What Our Clients Say</h1>
         </div>
 
-        <div className="d-flex justify-content-center">
-          {testimonials.map((t, index) => (
-            <div
-              key={t.id}
-              className={`testimonial-card text-center mx-3 transition-all`}
-              style={{
-                flex: index === currentIndex ? "1 0 300px" : "0 0 250px",
-                opacity: index === currentIndex ? 1 : 0.4,
-                transform:
-                  index === currentIndex ? "scale(1.05)" : "scale(0.9)",
-                transition: "all 0.6s ease-in-out",
-              }}
-            >
-              <img
-                src={t.img}
-                alt={t.name}
-                className="rounded-circle mb-3"
-                style={{ width: "100px", height: "100px", objectFit: "cover" }}
-              />
-              <div className="bg-white p-4 shadow-sm">
-                <p>{t.text}</p>
-                <h5 className="text-truncate">{t.name}</h5>
-                <span>{t.profession}</span>
+        {/* Slider Wrapper */}
+        <div
+          className="slider-wrapper"
+          style={{
+            overflow: "hidden",
+            width: "100%",
+            position: "relative",
+          }}
+        >
+          <div
+            className="slider-track d-flex"
+            style={{
+              width: `${testimonials.length * 100}%`,
+              display: "flex",
+              transition: "transform 0.5s ease",
+              transform: `translateX(-${
+                currentIndex * (100 / testimonials.length)
+              }%)`,
+            }}
+          >
+            {testimonials.map((t) => (
+              <div
+                key={t.id}
+                className="text-center p-3"
+                style={{ width: `${100 / testimonials.length}%` }}
+              >
+                <img
+                  src={t.img}
+                  alt={t.name}
+                  className="rounded-circle mb-3"
+                  style={{
+                    width: "100px",
+                    height: "100px",
+                    objectFit: "cover",
+                  }}
+                />
+                <div className="bg-white p-4 shadow-sm">
+                  <p>{t.text}</p>
+                  <h5 className="text-truncate">{t.name}</h5>
+                  <span>{t.profession}</span>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
-        {/* Dots Navigation */}
+        {/* Dots */}
         <div className="text-center mt-4">
           {testimonials.map((_, index) => (
             <span

@@ -9801,3 +9801,13 @@ h6,
   }
 }
 
+.logo-img {
+  height: 70px;
+  width: auto;
+}
+
+@media (max-width: 576px) {
+  .logo-img {
+    height: 40px;   /* Smaller size for mobile */
+  }
+}
