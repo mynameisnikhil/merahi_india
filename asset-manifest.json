@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8705304e.css",
-    "main.js": "/static/js/main.dfaa8613.js",
+    "main.css": "/static/css/main.8bb38151.css",
+    "main.js": "/static/js/main.a4ae6908.js",
     "static/js/453.cc1120e7.chunk.js": "/static/js/453.cc1120e7.chunk.js",
     "static/media/meraahi_logo.jpeg": "/static/media/meraahi_logo.dac598bf29800772f475.jpeg",
     "static/media/carousel-1.jpg": "/static/media/carousel-1.6c7b3b2ad958cf25deb0.jpg",
@@ -23,12 +23,12 @@
     "static/media/team-3.jpg": "/static/media/team-3.3d4090b04d58ee73aaf2.jpg",
     "static/media/team-4.jpg": "/static/media/team-4.0461dea9bcadcf04a287.jpg",
     "index.html": "/index.html",
-    "main.8705304e.css.map": "/static/css/main.8705304e.css.map",
-    "main.dfaa8613.js.map": "/static/js/main.dfaa8613.js.map",
+    "main.8bb38151.css.map": "/static/css/main.8bb38151.css.map",
+    "main.a4ae6908.js.map": "/static/js/main.a4ae6908.js.map",
     "453.cc1120e7.chunk.js.map": "/static/js/453.cc1120e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8705304e.css",
-    "static/js/main.dfaa8613.js"
+    "static/css/main.8bb38151.css",
+    "static/js/main.a4ae6908.js"
   ]
 }
